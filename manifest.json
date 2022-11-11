@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "tabolo",
+    "version": "0.0.1",
+    "description": "Add productivity to your new tab",
+    "permissions": ["tabs", "activeTab"],
+    "chrome_url_overrides": {
+        "newtab": "newTab.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
